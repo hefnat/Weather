@@ -3,6 +3,7 @@ Guide/Program to make a working Java program to get the weather forecast, using 
 
 Aside from json-jar library and your own API link, all in eclipse programmable 
 Getting API Link: get from OpenWeatherMap Homepage by registering there, free version is an option
+Also, further guides are available on homepage of OpenWeatherMap
 
 In the following a couple of different uses will be listed:
 
