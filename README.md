@@ -1,9 +1,9 @@
 # Weather
-Guide/Program to make a working Java program to get the weather forecast, using OpenWeatherMap & API
+Guide/Program to make a working Java program to get the weather forecast, using OpenWeatherMap & API.
 
-Aside from json-jar library and your own API link, all in eclipse programmable 
-Getting API Link: get from OpenWeatherMap Homepage by registering there, free version is an option
-Also, further guides are available on homepage of OpenWeatherMap
+Aside from json-jar library and your own API link, all in eclipse programmable.
+Getting API Link: get from OpenWeatherMap Homepage by registering there, free version is an option.
+Also, further guides are available on homepage of OpenWeatherMap.
 
 In the following a couple of different uses will be listed:
 
@@ -92,23 +92,23 @@ public class DownloadUrl {
 			
 			case 1:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/weather?q=zuerich&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 2:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/weather?q=london&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 3:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/weather?q=paris&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 4:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/weather?q=roma&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 5:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/weather?q=boston&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			default:
 				System.out
@@ -127,23 +127,23 @@ public class DownloadUrl {
 			switch (t) {
 			case 11:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Zuerich&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 22:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 33:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Paris&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 44:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Roma&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			case 55:
 				json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Boston&mode=json&units=metric&cnt=7&appid=
-				add your API code here");
+				add_your_API_code_here");
 				break;
 			default:
 				System.out
@@ -178,23 +178,23 @@ public class DownloadUrl {
 				switch (i) {
 				case 1:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Zuerich&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 2:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 3:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Paris&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 4:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Roma&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 5:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Boston&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				}
 				json_list = json.getJSONArray("list");
@@ -228,23 +228,23 @@ public class DownloadUrl {
 				switch (i) {
 				case 1:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Zuerich&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 2:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 3:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Paris&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 4:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Roma&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				case 5:
 					json = readJsonFromUrl("http://api.openweathermap.org/data/2.5/forecast/daily?q=Boston&mode=json&units=metric&cnt=7&appid=
-					add your API code here");
+					add_your_API_code_here");
 					break;
 				}
 				json_list = json.getJSONArray("list");
